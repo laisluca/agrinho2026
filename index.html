@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Agrinho 2026 - Agricultura Inteligente</title>
+    <title>Agro forte, uma economia sustentavel.</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <h1>Agrinho 2026</h1>
-        <p>Inovação e Sustentabilidade no Campo</p>
+        <p>Equilibrio no campo</p>
     </header>
 
     <main>
         <section class="sobre">
             <h2>Sobre o Projeto</h2>
-            <p>Nosso projeto busca unir a tecnologia moderna com as práticas agrícolas tradicionais, promovendo o uso eficiente de recursos como a água e a energia para um futuro mais sustentável.</p>
+            <p>O agronegócio sustentável une alta produção e preservação ambiental. Ele usa a tecnologia para cultivar mais alimentos em menos espaço. Práticas como o uso de energia solar e plantio direto protegem o solo e a água. Isso garante lucro hoje e recursos para o amanhã</p>
         </section>
 
         <section class="ferramenta">
             <h2>Simulador de Irrigação Inteligente</h2>
-            <p>Descubra a quantidade ideal de água para a sua plantação com base na área cultivada.</p>
+            <p>Qual será quantidade ideal de água para uma boa plantação de bom solo?</p>
             
             <div class="formulario">
                 <label for="area">Área do plantio (em metros quadrados):</label>
@@ -41,93 +41,7 @@
     <script src="script.js"></script>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Agrinho 2026 - Agricultura Inteligente</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>Agrinho 2026</h1>
-        <p>Inovação e Sustentabilidade no Campo</p>
-    </header>
-
-    <main>
-        <section class="sobre">
-            <h2>Sobre o Projeto</h2>
-            <p>Nosso projeto busca unir a tecnologia moderna com as práticas agrícolas tradicionais, promovendo o uso eficiente de recursos como a água e a energia para um futuro mais sustentável.</p>
-        </section>
-
-        <section class="ferramenta">
-            <h2>Simulador de Irrigação Inteligente</h2>
-            <p>Descubra a quantidade ideal de água para a sua plantação com base na área cultivada.</p>
-            
-            <div class="formulario">
-                <label for="area">Área do plantio (em metros quadrados):</label>
-                <input type="number" id="area" placeholder="Ex: 150">
-                <button onclick="calcularAgua()">Calcular Consumo</button>
-            </div>
-
-            <div id="resultado" class="resultado-oculto">
-                </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Projeto Agrinho - Desenvolvido para o GitHub</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Agrinho 2026 - Agricultura Inteligente</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>Agrinho 2026</h1>
-        <p>Inovação e Sustentabilidade no Campo</p>
-    </header>
-
-    <main>
-        <section class="sobre">
-            <h2>Sobre o Projeto</h2>
-            <p>Nosso projeto busca unir a tecnologia moderna com as práticas agrícolas tradicionais, promovendo o uso eficiente de recursos como a água e a energia para um futuro mais sustentável.</p>
-        </section>
-
-        <section class="ferramenta">
-            <h2>Simulador de Irrigação Inteligente</h2>
-            <p>Descubra a quantidade ideal de água para a sua plantação com base na área cultivada.</p>
-            
-            <div class="formulario">
-                <label for="area">Área do plantio (em metros quadrados):</label>
-                <input type="number" id="area" placeholder="Ex: 150">
-                <button onclick="calcularAgua()">Calcular Consumo</button>
-            </div>
-
-            <div id="resultado" class="resultado-oculto">
-                </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Projeto Agrinho - Desenvolvido para o GitHub</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
-/* Configurações Gerais */
+/* Geral. */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -138,7 +52,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #2e7d32;
+    background-color: #2e7d33;
     color: white;
     text-align: center;
     padding: 2rem 1rem;
@@ -149,7 +63,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* Conteúdo Principal */
+/* Principal */
 main {
     max-width: 800px;
     margin: 2rem auto;
@@ -186,7 +100,7 @@ input {
 }
 
 button {
-    background-color: #2e7d32;
+    background-color: #2e7d38;
     color: white;
     border: none;
     padding: 0.7rem;
@@ -197,7 +111,7 @@ button {
 }
 
 button:hover {
-    background-color: #1b5e20;
+    background-color: #1b5e30;
 }
 
 /* Área de Resultado */
@@ -238,18 +152,4 @@ function calcularAgua() {
         return;
     }
 
-    // Cálculo fictício: assume-se uma economia média de 12 litros de água por m² com sensores inteligentes
-    const aguaEconomizada = area * 12;
-
-    // Configura o estilo de sucesso e exibe o resultado
-    resultadoDiv.style.display = 'block';
-    resultadoDiv.style.borderColor = '#2e7d32';
-    resultadoDiv.style.backgroundColor = '#e8f5e9';
-    
-    resultadoDiv.innerHTML = `
-        <h3>🎉 Resultado da Simulação</h3>
-        <p>Com um sistema de irrigação inteligente automatizado em uma área de <strong>${area} m²</strong>, você pode economizar cerca de <strong>${aguaEconomizada} litros</strong> de água por ciclo de rega em comparação aos métodos tradicionais!</p>
-    `;
-}
-  
     
